@@ -190,11 +190,11 @@ a h6 {
 }
 
 .footer__copytext p a, .footer__post .footer__wrapper ul li:hover .content h6 a, .footer__page .footer__wrapper ul li a:hover, .footer .bg-title .footer__page .footer__wrapper ul li a:hover, .footer .bg-title .footer__page .footer__wrapper ul li a:focus, .form-message.error, .information__content p span, .sidebar__author .body .content ul li a:hover, .sidebar__relatedpost .body ul li:hover .content h6 a, .sidebar__categorie .body ul li:hover a, .sidebar__categorie .body ul li:hover span, .sidebar__recentpost .body ul li:hover .content h6 a, .jobs__lists .table.table-striped > tbody > tr:nth-of-type(even) td p b, .history__year > span span, .history__inner:hover .history__content h4, .history__inner:hover .history__year > span span, .pageheader__content .breadcrumb .breadcrumb-item.active, .pageheader__content .breadcrumb .breadcrumb-item:hover a, .misson__content ul li i, .specialtie__two .specialtie__content h6, .specialtie__content > span, .specialtie__content h2, .blog--classic .blog__inner:hover .blog__content h3 a, .blog--single .blog__inner:hover .blog__content h3 a, .blog.home .blog__meta ul li i, .blog.home .blog__inner:hover .blog__content .read-more, .blog.home .blog__inner:hover .blog__content h4 a, .testimonial__author .rating i, .project__icon:hover, .project__icon, .work__inner:hover .work__thumb span, .teamMember__single .teamMember__memberInfo-content ul li a:hover, .teamMember__content ul li a:hover, .teamMember__inner:hover .teamMember__content > a, .teamMember__inner:hover .teamMember__content h4 a, .service__single .service__content ul li i, .service__two .service__content .read-more:hover, .service__content span, .service__inner:hover .service__content .read-more, .service__inner:hover .service__content h4 a, .about__author .content h6 a:hover, .about__content > h6, .banner__three .banner__content h6, .banner__two .banner__content h6, .banner__one .banner__content h6, .banner__btngroup .video__btn i, .section__header h6, .infotext p a {
-  color: #FF3147;
+  color: #C03437;
 }
 
 .paginations ul li a.active, .paginations ul li a:hover, .bg-theme, .lab-btn, .scrollToTop i, .tags-section .tags li a:hover, .tags-section .tags li span::after, .tags-section .tags li span {
-  background: #FF3147;
+  background: #C03437;
 }
 
 .paginations ul li a, .bg-prime {
@@ -746,7 +746,6 @@ input, textarea, select {
 }
 
 .section__header {
-  max-width: 600px;
   margin: 0 auto 40px;
 }
 .mb-none-120 {
@@ -756,11 +755,11 @@ input, textarea, select {
 /*=========@@@@@@@@@ All Common Items   @@@@@@@@@============*/
 /* @@@@@@@@@@@@@  Common CSS Writing Now  @@@@@@@@@@@@@@ */
 .padding-tb {
-  padding: 80px 0;
+  padding: 60px 0;
 }
 @media (min-width: 992px) {
   .padding-tb {
-    padding: 120px 0;
+    padding: 60px 0;
   }
 }
 
@@ -1179,7 +1178,7 @@ input, textarea, select {
   z-index: 2;
 }
 .banner__five .banner__btngroup a:first-child {
-  background-color: #FF3147;
+  background-color: #C03437;
 }
 .banner__five .banner__btngroup a:first-child:hover {
   background-color: #021738;
@@ -2500,7 +2499,7 @@ input, textarea, select {
   background-color: #F2F6F9;
 }
 .misson__tabul li .lab-btn.active, .misson__tabul li .lab-btn:hover {
-  background-color: #FF3147;
+  background-color: #C03437;
 }
 @media (min-width: 992px) {
   .misson__thumb {
@@ -3452,7 +3451,7 @@ input, textarea, select {
   height: 100%;
   top: 0;
   right: 0;
-  background-color: #FF3147;
+  background-color: #C03437;
 }
 .callAaction__form {
   background-color: #fff;
