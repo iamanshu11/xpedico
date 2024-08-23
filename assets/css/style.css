@@ -3624,3 +3624,9 @@ input, textarea, select {
   position: absolute;
   bottom: 5%;
 }
+
+@media (max-width: 991px) {
+  .service__content .read-more{
+    position: static;
+  }
+}
