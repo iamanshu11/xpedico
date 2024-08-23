@@ -36,7 +36,7 @@ Tags: accountant, advertising, adviser, agency, broker, consultant, consulting, 
 #Footer
 --------------------------------------------------------------*/
 /* @@@@@@@@@@@@@  Extend Property CSS Writing Now  @@@@@@@@@@@@@@ */
-.footer__gallery .footer__wrapper ul, .footer__post .footer__wrapper ul li, .footer__page .footer__wrapper ul, .contact__form form, .callAaction__form form, .header__bararea, .header__two .header__top .header__toparea .info ul li, .header__two .header__top .header__toparea .info ul, .header__two .header__top .header__toparea, .header__bottom .area .menu, .header__bottom .area, .sidebar__commentForm .body form, .sidebar__comment .body ul li .content__top, .sidebar__author .body, .sidebar__relatedpost .body ul, .sidebar__categorie .body ul li, .sidebar .body ul li, .jobs__list, .jobs__search form, .history__inner, .history .section__wrapper, .misson__inner, .appointment__inner, .specialtie__two .specialtie__inner, .blog--single .blog__content blockquote, .blog.home .blog__meta ul, .testimonial__three .testimonial__thumb, .testimonial__author, .testimonial__inner, .testimonial__navigation, .project__content, .teamMember__single .teamMember__memberDetails form, .teamMember__inner, .service__four .service__inner, .progressbararea li .title, .about__author, .about__footer, .about__content ul li, .about__content ul, .feature__four .feature__inner, .feature__thumb, .banner__two .banner__btngroup, .banner__btngroup .video__btn, .banner__btngroup, .paginations ul li a, .tags-section .tags, .tags-section {
+.footer__gallery .footer__wrapper ul, .footer__post .footer__wrapper ul li, .footer__page  .contact__form form, .callAaction__form form, .header__bararea, .header__two .header__top .header__toparea .info ul li, .header__two .header__top .header__toparea .info ul, .header__two .header__top .header__toparea, .header__bottom .area .menu, .header__bottom .area, .sidebar__commentForm .body form, .sidebar__comment .body ul li .content__top, .sidebar__author .body, .sidebar__relatedpost .body ul, .sidebar__categorie .body ul li, .sidebar .body ul li, .jobs__list, .jobs__search form, .history__inner, .history .section__wrapper, .misson__inner, .appointment__inner, .specialtie__two .specialtie__inner, .blog--single .blog__content blockquote, .blog.home .blog__meta ul, .testimonial__three .testimonial__thumb, .testimonial__author, .testimonial__inner, .testimonial__navigation, .project__content, .teamMember__single .teamMember__memberDetails form, .teamMember__inner, .service__four .service__inner, .progressbararea li .title, .about__author, .about__footer, .about__content ul li, .about__content ul, .feature__four .feature__inner, .feature__thumb, .banner__two .banner__btngroup, .banner__btngroup .video__btn, .banner__btngroup, .paginations ul li a, .tags-section .tags, .tags-section {
   display: flex;
   flex-wrap: wrap;
 }
@@ -127,12 +127,12 @@ a h6 {
   text-overflow: ellipsis;
 }
 
-.project__content h4 a, .service__content h4 a, .feature__content h4 {
+/* .project__content h4 a, .service__content h4 a, .feature__content h4 {
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
-}
+} */
 
 .work__two .work__content p, .about__three .about__thumb .thumb::after, .about__four .about__thumb .thumb::after, .about__two .about__thumb .thumb::after {
   display: none;
@@ -1432,6 +1432,7 @@ input, textarea, select {
   max-width: 34ch;
 }
 .about__thumb .thumb--2 > img {
+  width: 400px;
   z-index: 2;
 }
 @media (max-width: 991px) {
@@ -3533,7 +3534,7 @@ input, textarea, select {
   border-radius: 100%;
 }
 .footer__page .footer__wrapper ul li {
-  width: calc(100% / 2);
+  /* width: calc(100% / 2); */
   padding-left: 10px;
 }
 .footer__page .footer__wrapper ul li a {
@@ -3595,4 +3596,31 @@ input, textarea, select {
 .service__content p{
   margin-bottom: 0;
   line-height: 1.4;
+}
+
+.build-data-1{
+  height: 314px;
+}
+.build-data-2{
+  height: 314px;
+}
+.build-data-3{
+  height: 362px;
+}
+.build-data-4{
+  height: 362px;
+}
+
+.service__item{
+  display: flex;
+  height: 100%;
+}
+
+.service__content{
+  position: relative;
+}
+
+.service__content .read-more{
+  position: absolute;
+  bottom: 5%;
 }
