@@ -274,7 +274,7 @@ a h6 {
   margin-bottom: 5px;
 }
 
-.footer__about p, .footer__title, .callAaction__form form textarea, .callAaction__form form input, .callAaction__form form .custom-select, .callAaction__form h2, .fourzero__content p, .fourzero__thumb, .misson__tabul, .specialtie__thumb, .service__two .service__thumb, .about__four .about__thumb, .banner__one .banner__content h2, .section-header, .filters-button-group, .mb-30 {
+.footer__about p, .footer__title, .callAaction__form form textarea,  .callAaction__form form .custom-select, .callAaction__form h2, .fourzero__content p, .fourzero__thumb, .misson__tabul, .specialtie__thumb, .service__two .service__thumb, .about__four .about__thumb, .banner__one .banner__content h2, .section-header, .filters-button-group, .mb-30 {
   margin-bottom: 30px;
 }
 
@@ -3466,9 +3466,9 @@ input, textarea, select {
     width: calc(100% / 2 - 15px);
   }
 }
-.callAaction__form form textarea {
+/* .callAaction__form form textarea {
   background-color: #F2F6F9;
-}
+} */
 /*Contact Item Css Start here*/
 .contact__form form {
   gap: 30px;
